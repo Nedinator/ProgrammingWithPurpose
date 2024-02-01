@@ -6,9 +6,9 @@ public class RightTriangle {
 
         boolean isPositiveLengths = a > 0 && b > 0 && c > 0;
 
-        int a2 = (int) Math.round(Math.pow(a, 2));
-        int b2 = (int) Math.round(Math.pow(b, 2));
-        int c2 = (int) Math.round(Math.pow(c, 2));
+        int a2 = (int) Math.pow(a, 2);
+        int b2 = (int) Math.pow(b, 2);
+        int c2 = (int) Math.pow(c, 2);
 
         boolean isRightTriangle = isPositiveLengths && (
                 a2 + b2 == c2
